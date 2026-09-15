@@ -6,8 +6,6 @@ A webcam-driven interactive drawing system that transforms natural hand gestures
 
 The application captures live video from a webcam, detects hand landmarks, and interprets predefined gestures to control the drawing experience. It is designed for simple, intuitive interaction without the need for a physical pen or stylus, making it suitable for presentations, digital brainstorming, and creative demonstrations.
 
----
-
 ## Features
 
 - Real-time hand tracking and gesture recognition
@@ -18,8 +16,6 @@ The application captures live video from a webcam, detects hand landmarks, and i
 - Cycle color selection with a thumb-index pinch gesture
 - Save the active drawing as an image file
 - Lightweight, dependency-based Python implementation
-
----
 
 ## Controls
 
@@ -33,15 +29,11 @@ The application captures live video from a webcam, detects hand landmarks, and i
 | Quit | `q` | Exits the application |
 | Save | `s` | Saves the current canvas as an image |
 
----
-
 ## Requirements
 
 - Python 3.12
 - Webcam access
 - Windows, macOS, or Linux environment compatible with OpenCV and MediaPipe
-
----
 
 ## Installation
 
@@ -75,8 +67,6 @@ python whiteboard.py
 
 The application will open a live webcam feed and begin processing hand gestures immediately. Use the controls listed above to interact with the canvas.
 
----
-
 ## Project Structure
 
 ```text
@@ -94,8 +84,6 @@ AI-Virtual-Whiteboard/
 
 This project uses a versioned dependency stack intentionally selected for compatibility with the current MediaPipe and OpenCV API surface. For the most consistent experience, it is recommended to run the application in the configured virtual environment and ensure the webcam is available and permitted by the operating system.
 
----
-
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is released under the MIT License. See [LICENSE](LICENSE) for the full license text.
