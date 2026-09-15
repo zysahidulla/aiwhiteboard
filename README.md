@@ -98,4 +98,4 @@ This project uses a versioned dependency stack intentionally selected for compat
 
 ## License
 
-This project is provided as an educational and experimental implementation. Please review the repository and any applicable licensing terms before commercial or public deployment.
+This project is licensed under the MIT License. See the LICENSE file for details.
