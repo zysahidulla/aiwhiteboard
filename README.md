@@ -57,8 +57,6 @@ The application captures live video from a webcam, detects hand landmarks, and i
    pip install -r requirements.txt
    ```
 
----
-
 ## Running the Application
 
 ```bash
@@ -77,8 +75,6 @@ AI-Virtual-Whiteboard/
 ├── README.md              # Project overview and usage documentation
 └── index.html             # Optional landing page or project presentation asset
 ```
-
----
 
 ## Notes
 
