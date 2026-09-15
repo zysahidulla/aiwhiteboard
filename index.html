@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Virtual Whiteboard</title>
+    <style>
+      :root {
+        --bg: #0b1020;
+        --panel: #111827;
+        --panel-2: #1f2937;
+        --accent: #7c3aed;
+        --text: #e5e7eb;
+        --muted: #a1a1aa;
+        --green: #22c55e;
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(135deg, #0b1020, #111827 40%, #1f2937);
+        color: var(--text);
+      }
+      .container {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 64px 24px 80px;
+      }
+      .card {
+        background: rgba(17, 24, 39, 0.9);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 18px;
+        padding: 32px;
+        box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+      }
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2.2rem, 5vw, 3.5rem);
+      }
+      p {
+        color: var(--muted);
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+      .badge {
+        display: inline-block;
+        background: rgba(124,58,237,0.18);
+        color: #d8b4fe;
+        border: 1px solid rgba(196,181,253,0.3);
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 0.82rem;
+        letter-spacing: 0.04rem;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+      }
+      .actions {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 26px;
+      }
+      a.button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 18px;
+        border-radius: 12px;
+        font-weight: 700;
+        transition: 0.2s ease;
+      }
+      a.primary {
+        background: var(--accent);
+        color: white;
+      }
+      a.secondary {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid rgba(255,255,255,0.12);
+      }
+      a.button:hover {
+        transform: translateY(-1px);
+      }
+      ul {
+        color: var(--text);
+        line-height: 1.8;
+        padding-left: 20px;
+      }
+      .note {
+        margin-top: 26px;
+        background: rgba(34, 197, 94, 0.08);
+        border: 1px solid rgba(34, 197, 94, 0.3);
+        border-radius: 12px;
+        padding: 16px 18px;
+        color: #dcfce7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="badge">Computer Vision Project</div>
+        <h1>AI Virtual Whiteboard</h1>
+        <p>
+          A hand-tracking drawing app built with Python, OpenCV, Pillow, and MediaPipe.
+          It uses your webcam to detect hand gestures and lets you draw on a virtual canvas.
+        </p>
+
+        <div class="actions">
+          <a class="button primary" href="https://github.com/zysahidulla/aiwhiteboard" target="_blank" rel="noreferrer">
+            View GitHub Repo
+          </a>
+          <a class="button secondary" href="https://github.com/zysahidulla/aiwhiteboard/blob/main/README.md" target="_blank" rel="noreferrer">
+            Read the README
+          </a>
+        </div>
+
+        <div class="note">
+          GitHub Pages is a static hosting service, so this page is a landing page for the project.
+          The actual webcam app runs locally on your machine using Python and camera access.
+        </div>
+
+        <h2>What it does</h2>
+        <ul>
+          <li>Draw with your index finger</li>
+          <li>Erase using an eraser gesture</li>
+          <li>Undo and clear the canvas</li>
+          <li>Change colors using the gesture palette</li>
+          <li>Save your created drawing as an image</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
