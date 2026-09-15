@@ -1,0 +1,9 @@
+﻿# Python virtual environments
+venv/
+venv312/
+temp_env312/
+
+# Python cache / test artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]

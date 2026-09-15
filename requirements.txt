@@ -1,0 +1,6 @@
+mediapipe==0.10.14
+opencv-python==4.13.0.92
+opencv-contrib-python==4.13.0.92
+numpy==2.3.2
+Pillow==12.2.0
+pytest==9.1.1
